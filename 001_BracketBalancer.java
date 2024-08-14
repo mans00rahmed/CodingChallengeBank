@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 
-public class BracketBalancer {
+public class CodingProblems {
     public static Boolean areBracketsBalanced(ArrayList<String> input) {
         HashMap<String, String> bracketPairs = new HashMap<>();
         bracketPairs.put("(", ")");

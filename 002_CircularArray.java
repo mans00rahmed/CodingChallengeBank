@@ -1,6 +1,6 @@
 package org.example;
 
-public class circularArray {
+public class CodingProblems {
     static void isCircularArray(int[] input) {
         int minIndex = findSmallestElement(input);
         boolean isCircular = true;
