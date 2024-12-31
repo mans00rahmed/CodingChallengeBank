@@ -3,7 +3,7 @@ public class CodingProblems {
     static String[] TENS = {"", "", "Twenty", "Thirty", "Forty", "Fifty", "Sixty", "Seventy", "Eighty", "Ninety"};
     static String[] THOUSANDS = {"", "Thousand", "Million", "Billion"};
 
-    public static String numberToWords(int num) {
+    public static String NumberToWords(int num) {
         if (num == 0) {
             return "Zero";
         }
